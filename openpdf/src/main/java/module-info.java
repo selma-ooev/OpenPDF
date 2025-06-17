@@ -1,9 +1,8 @@
 module com.github.librepdf.openpdf {
     requires static org.bouncycastle.pkix;
     requires static org.bouncycastle.provider;
-    requires static fop;
+    requires static org.apache.xmlgraphics.commons;
     requires static java.desktop;
-    requires static fop.core;
     requires static com.ibm.icu;
 
     exports com.lowagie.bouncycastle;
