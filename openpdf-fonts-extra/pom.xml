@@ -5,10 +5,11 @@
   <parent>
     <groupId>com.github.librepdf</groupId>
     <artifactId>openpdf-parent</artifactId>
-    <version>2.2.3-SNAPSHOT</version>
+    <version>3.0.1-SNAPSHOT</version>
   </parent>
 
   <artifactId>openpdf-fonts-extra</artifactId>
+  <name>OpenPDF Fonts Extras</name>
 
   <properties>
     <java-module-name>com.github.librepdf.pdfFontsExtra</java-module-name>

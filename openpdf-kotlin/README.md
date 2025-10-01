@@ -1,5 +1,7 @@
-**OpenPDF Kotlin** is an *experimental* Kotlin extension module for [OpenPDF](https://github.com/LibrePDF/OpenPDF). 
-It provides idiomatic Kotlin APIs, utilities, and builder-style functionality for working with PDF documents.
+# OpenPDF-Kotlin
+
+**OpenPDF Kotlin** is a Kotlin extension module for [OpenPDF](https://github.com/LibrePDF/OpenPDF). 
+It provides Kotlin APIs, utilities, and builder-style functionality for working with PDF documents.
 
 This submodule makes OpenPDF more convenient and expressive for Kotlin developers by offering:
 
@@ -10,14 +12,20 @@ This submodule makes OpenPDF more convenient and expressive for Kotlin developer
 
 Kotlin pull requests are welcome!
 
+### Kotlin based OpenPDF projects!
+
+* https://github.com/ralfstuckert/openpdf-markdown
+
 ---
 
-## Example Usage
+### Example Usage
+
+### Make PDF file from HTML:
 
 ```kotlin
 import java.io.FileOutputStream
 import com.github.librepdf.html.HtmlPdfBuilder
-import com.lowagie.text.pdf.PdfWriter
+import org.openpdf.text.pdf.PdfWriter
 
 val outputStream = FileOutputStream("output.pdf")
 
@@ -34,12 +42,14 @@ HtmlPdfBuilder(outputStream).apply {
         """.trimIndent()
     )
     scaleToFit(true)
-    pdfVersion(com.lowagie.text.pdf.PdfWriter.VERSION_1_7)
+    pdfVersion(org.openpdf.text.pdf.PdfWriter.VERSION_1_7)
     build()
 }
 
 ```
 
+
+### Make PDF file using Kotlin code:
 ```kotlin
 import com.github.librepdf.kotlin.PdfBuilder
 import java.io.FileOutputStream
@@ -59,7 +69,7 @@ fun main() {
 
 ## TODO
 
-- [ ] Improve `PdfBuilder` DSL syntax and flexibility (e.g. nested tables, headers, footers)
+- [ ] Allow using Openpdf-html and Openpdf-renderer in Kotlin, create Kotlin utility classes and Kotlin examples of using OpenPDF to create PDF files from HTML (Openpdf-html), and to render PDF files as images (Openpdf-renderer).
 - [ ] Add unit tests for all Kotlin utilities
 - [ ] Add `PdfFormUtil` for working with AcroForms (fill/read fields)
 - [ ] Create `PdfMetadataUtil` for reading document properties

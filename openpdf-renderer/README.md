@@ -3,6 +3,11 @@ OpenPDF-renderer
 
 OpenPDF-renderer is a Java library for rendering PDF files as images.
 
+## License
+
+This project is licensed under the **GNU Lesser General Public License (LGPL)**. 
+
+[![License (LGPL version 2.1)](https://img.shields.io/badge/license-GNU%20LGPL%20version%202.1-blue.svg?style=flat-square)](http://opensource.org/licenses/LGPL-2.1)
 
 Examples:
 ========
@@ -78,8 +83,34 @@ public class ImageRendererTest {
         }
     }
 }
-
-
-
-
 ```
+
+## History
+
+OpenPDF-renderer is a fork from https://github.com/katjas/PDFrenderer (forked from http://java.net/projects/pdf-renderer) forked in june 2025, and is used in accordance with the license: https://github.com/katjas/PDFrenderer/blob/master/LICENSE.txt
+
+### PDFRenderer – Background & Origin
+
+- **Background – Sun Labs**  
+  - Researchers at **Sun Labs** created the **all-Java PDF Renderer** to drive a lightweight PDF viewer for OpenOffice, rendering content via Java2D without needing full browser or native libraries.  
+
+
+- **Open-Sourcing of the Project**  
+  - When the internal needs waned, Sun Labs offered the project for open-source release. It was adopted and championed by **Josh Marinacci** and **Richard Bair** (of SwingLabs fame).  
+  - **Tom Oke** took lead in further development, and the first open-source release appeared publicly in **December 2007**, under the **LGPL license**.  
+
+- **Key Motivations**  
+  - Java lacked a built-in way to render PDFs. This project enabled:
+    - Previewing PDFs in Swing applications,
+    - Rendering pages as images for printing or embedding,
+    - Using pure Java (Java2D) without external dependencies.  
+
+- **Legacy & Influence**  
+  - **katjas/PDFrenderer** is a modern GitHub-hosted fork of the java.net version. Its goal: fix bugs, improve functionality, and modernize the rendering pipeline.  
+  - Enhancements include:
+    - Better colour space handling,
+    - Support for more PDF features (annotations, fonts, JBIG2 decoding, etc.).  
+
+
+
+

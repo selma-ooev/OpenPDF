@@ -6,10 +6,11 @@
   <parent>
     <groupId>com.github.librepdf</groupId>
     <artifactId>openpdf-parent</artifactId>
-    <version>2.2.3-SNAPSHOT</version>
+    <version>3.0.1-SNAPSHOT</version>
   </parent>
 
   <artifactId>pdf-swing</artifactId>
+  <name>OpenPDF Swing</name>
 
   <properties>
     <java-module-name>com.github.librepdf.pdfSwing</java-module-name>

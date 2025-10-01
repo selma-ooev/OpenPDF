@@ -1,42 +1,20 @@
 # OpenPDF is an open source Java library for PDF files
 
-OpenPDF is a Java library for creating and editing PDF files with a LGPL and MPL open source
-license. OpenPDF is the LGPL/MPL open source successor of iText, and is based on some forks of iText
-4 svn tag. OpenPDF-html allows making PDF files from HTML. 
-We welcome contributions from other developers. Please feel free to submit pull-requests
-and bugreports to this GitHub repository.
+OpenPDF is an open-source Java library for creating, editing, rendering, and encrypting PDF documents, as well as generating PDFs from HTML. It is licensed under the LGPL and MPL open source licenses. 
+We welcome contributions from other developers. Please feel free to submit pull-requests and bug reports to this GitHub repository.
 
-[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.github.librepdf/openpdf/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.github.librepdf/openpdf)
-![CI](https://github.com/LibrePDF/OpenPDF/actions/workflows/maven.yml/badge.svg)
-[![License (LGPL version 2.1)](https://img.shields.io/badge/license-GNU%20LGPL%20version%202.1-blue.svg?style=flat-square)](http://opensource.org/licenses/LGPL-2.1)
-[![License (MPL)](https://img.shields.io/badge/license-Mozilla%20Public%20License-yellow.svg?style=flat-square)](http://opensource.org/licenses/MPL-2.0)
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/791d40a437f64c77a0a802ae597a960c)](https://app.codacy.com/gh/LibrePDF/OpenPDF/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
-[![Codacy Badge](https://app.codacy.com/project/badge/Coverage/791d40a437f64c77a0a802ae597a960c)](https://app.codacy.com/gh/LibrePDF/OpenPDF/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_coverage)
-[![CodeQL](https://github.com/LibrePDF/OpenPDF/actions/workflows/codeql.yml/badge.svg)](https://github.com/LibrePDF/OpenPDF/actions/workflows/codeql.yml)
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=LibrePDF_OpenPDF&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=LibrePDF_OpenPDF)
-[![CodeFactor](https://www.codefactor.io/repository/github/librepdf/openpdf/badge)](https://www.codefactor.io/repository/github/librepdf/openpdf)
-[![Join the chat at https://gitter.im/LibrePDF/OpenPDF](https://badges.gitter.im/LibrePDF/OpenPDF.svg)](https://gitter.im/LibrePDF/OpenPDF)
-![Java 17](https://img.shields.io/badge/Java-17-blue?logo=java&logoColor=white)
-![Java 21](https://img.shields.io/badge/Java-21-blue?logo=java&logoColor=white)
-![Java 24](https://img.shields.io/badge/Java-24-blue?logo=java&logoColor=yellow)
-[![Kotlin](https://img.shields.io/badge/Kotlin-Supported-7F52FF?logo=kotlin&logoColor=white)](https://github.com/LibrePDF/OpenPDF/tree/master/openpdf-kotlin)
+## OpenPDF version 3.0.0 released 2025-08-17
 
-
-
-## OpenPDF version 2.2.2 released 2025-06-16
-
-Get version 2.2.2 here: https://github.com/LibrePDF/OpenPDF/releases/tag/2.2.2
-
-### Other versions
+Get version 3.0.0 here: https://github.com/LibrePDF/OpenPDF/releases/tag/3.0.0 Other versions
 
 - [OpenPDF 1.4.2 (release 2024-03-30)](https://github.com/LibrePDF/OpenPDF/releases/tag/1.4.2)
 - [Previous releases](https://github.com/LibrePDF/OpenPDF/releases)
 
 ## Features
 
-Some of the features of OpenPDF include:
+The features of OpenPDF include:
 
-* [Openpdf](openpdf) Creating PDFs: You can use OpenPDF to create new PDF documents from scratch.
+* [Openpdf](openpdf-core) Creating PDFs: You can use OpenPDF to create new PDF documents from scratch.
 * Manipulating Existing PDFs: OpenPDF allows you to modify existing PDF documents by adding or removing pages, modifying
   text, and more.
 * [Openpdf-html](openpdf-html) Create PDF files from HTML, using OpenPDF-html which is a fork of Flying Saucer.
@@ -48,7 +26,21 @@ Some of the features of OpenPDF include:
 * Table Support: The library facilitates the creation of tables in PDF documents.
 * Encryption: You can encrypt PDF documents for security purposes.
 * Page Layout: OpenPDF allows you to set the page size, orientation, and other layout properties.
+* PDF 2.0 support (ISO 32000-2).
 
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.github.librepdf/openpdf/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.github.librepdf/openpdf)
+![CI](https://github.com/LibrePDF/OpenPDF/actions/workflows/maven.yml/badge.svg)
+[![License (LGPL version 2.1)](https://img.shields.io/badge/license-GNU%20LGPL%20version%202.1-blue.svg?style=flat-square)](http://opensource.org/licenses/LGPL-2.1)
+[![License (MPL)](https://img.shields.io/badge/license-Mozilla%20Public%20License-yellow.svg?style=flat-square)](http://opensource.org/licenses/MPL-2.0)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/791d40a437f64c77a0a802ae597a960c)](https://app.codacy.com/gh/LibrePDF/OpenPDF/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
+[![Codacy Badge](https://app.codacy.com/project/badge/Coverage/791d40a437f64c77a0a802ae597a960c)](https://app.codacy.com/gh/LibrePDF/OpenPDF/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_coverage)
+[![CodeQL](https://github.com/LibrePDF/OpenPDF/actions/workflows/codeql.yml/badge.svg)](https://github.com/LibrePDF/OpenPDF/actions/workflows/codeql.yml)
+[![CodeFactor](https://www.codefactor.io/repository/github/librepdf/openpdf/badge)](https://www.codefactor.io/repository/github/librepdf/openpdf)
+[![Join the chat at https://gitter.im/LibrePDF/OpenPDF](https://badges.gitter.im/LibrePDF/OpenPDF.svg)](https://gitter.im/LibrePDF/OpenPDF)
+![Java 17](https://img.shields.io/badge/Java-17-blue?logo=java&logoColor=white)
+![Java 21](https://img.shields.io/badge/Java-21-blue?logo=java&logoColor=white)
+![Java 24](https://img.shields.io/badge/Java-24-blue?logo=java&logoColor=yellow)
+[![Kotlin](https://img.shields.io/badge/Kotlin-Supported-ADD8E6?logo=kotlin&logoColor=white)](https://github.com/LibrePDF/OpenPDF/tree/master/openpdf-kotlin)
 
 ## Use OpenPDF as Maven dependency
 
@@ -59,14 +51,15 @@ Add this to your pom.xml file to use the latest version of OpenPDF:
 <dependency>
   <groupId>com.github.librepdf</groupId>
   <artifactId>openpdf</artifactId>
-  <version>2.2.2</version>
+  <version>3.0.0</version>
 </dependency>
 ```
 
 ## License
 
 OpenPDF uses dual licensing: when using the library, you may choose either Mozilla Public License Version 2.0
-or GNU Lesser General Public License 2.1.
+or GNU Lesser General Public License 2.1.  OpenPDF is the LGPL/MPL open source successor of iText, and is based on some forks of iText
+4 svn tag.
 
 The SPDX license identifier for OpenPDF licensing is `MPL-2.0 OR LGPL-2.1+`
 
@@ -84,12 +77,39 @@ We want OpenPDF to consist of source code which is consistently licensed with th
 licences only. This also means that any new contributions to the project must have a dual LGPL and
 MPL license only.
 
+[Openpdf-html](openpdf-html) and [Openpdf-renderer](openpdf-renderer) are licensed with GNU Lesser General Public License 2.1 only.
+
 ## Documentation
 
-- [Examples](pdf-toolbox/src/test/java/com/lowagie/examples)
+- [Examples](pdf-toolbox/src/test/java/org/openpdf/examples)
 - [JavaDoc](https://javadoc.io/doc/com.github.librepdf/openpdf/latest/index.html)
 - [Tutorial](https://github.com/LibrePDF/OpenPDF/wiki/Tutorial) (wiki, work in progress)
 - [Migration from iText, TIFF support](https://github.com/LibrePDF/OpenPDF/wiki/Migrating-from-iText-2-and-4)
+
+---
+
+### Openpdf-html – HTML to PDF
+[Openpdf-html](openpdf-html): Generates PDFs directly from HTML/CSS content.  
+Ideal for creating styled reports, invoices, and documents from web templates.
+
+**Maven artifact:** `com.github.librepdf:openpdf-html`
+
+---
+
+### Openpdf-renderer – PDF Rendering
+[Openpdf-renderer](openpdf-renderer): Renders PDF pages to images or displays them in Java webapp/Swing/JavaFX applications.  
+Useful for previews, thumbnails, or embedding PDFs in GUIs.
+
+**Maven artifact:** `com.github.librepdf:openpdf-renderer`
+
+---
+
+## Security Notice
+
+It is the responsibility of the application developer to ensure that all input passed into OpenPDF is trusted,
+sanitized, and safe.
+OpenPDF does not perform input validation or enforce sandboxing. For important security guidelines and common risks,
+please read our [Security Policy](Security.md).
 
 ## Background
 
@@ -98,6 +118,10 @@ specifically iText svn tag 4.2.0, which was hosted publicly on sourceforge with 
 headers in the source code, and LGPL and MPL license documents in the svn repository. Beginning with
 version 5.0 of iText, the developers have moved to the AGPL to improve their ability to sell
 commercial licenses.
+
+OpenPDF-html is a fork of Flying Saucer, forked in june 2025, project started in 2004.
+openpdf-renderer is a fork of PDFRenderer, porject started by Sun Labs in 2007.
+OpenPDF-core is a fork of iText, forked in October 2016, iText started in 2000.
 
 OpenPDF ancestors in GitHub (in fork order):
 
@@ -111,10 +135,7 @@ OpenPDF ancestors in GitHub (in fork order):
    original parent on GitHub
 
 
-## Security Notice
 
-It is the responsibility of the application developer to ensure that all input passed into OpenPDF is trusted, sanitized, and safe.
-OpenPDF does not perform input validation or enforce sandboxing. For important security guidelines and common risks, please read our [Security Policy](Security.md).
 
 ## Android
 
@@ -122,14 +143,12 @@ OpenPDF can be used with Android, more info
 here: [Android-support](https://github.com/LibrePDF/OpenPDF/wiki/Android-support)
 
 ## Contributing
-
-Release the hounds!  Please send all pull requests. Make sure that your contributions can be
-released with a dual LGPL and MPL license. In particular, pull requests to the OpenPDF project must
+We welcome contributions from other developers. Make sure that your contributions can be released with a dual LGPL and MPL license. In particular, pull requests to the OpenPDF project must
 only contain code that you have written yourself. GPL or AGPL licensed code will not be acceptable.
 
 To contribute code to the OpenPDF project, your GitHub account must contain your real name, so that
 we can verify your identity. This is to ensure the trust, security and integrity of the OpenPDF
-project, and to prevent security incidents such as the "XZ Utils backdoor". Knowning the real name
+project, and to prevent security incidents such as the "XZ Utils backdoor". Knowing the real name
 of the contributors will also identify and prevent conflict of interests.
 
 More details: [Contributing](CONTRIBUTING.md)
@@ -145,10 +164,15 @@ More details: [Contributing](CONTRIBUTING.md)
 
 We have now different versions of OpenPDF, and they require different versions of Java:
 
-- The 2.1.x Branch requires Java 21 or later.
+- The 2.4.x Branch requires Java 21 or later.
 - The 2.0.x Branch requires Java 17 or later.
 - The 1.4.x Branch requires Java 11 or later.
 - The 1.3.x Branch requires Java 8 or later.
+
+
+### OpenPDF Java package name change from com.lowagie to org.openpdf
+
+The OpenPDF 3.0 version uses the new org.openpdf package name. 
 
 ### UTF-8 Fonts
 
