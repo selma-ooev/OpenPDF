@@ -11,10 +11,6 @@
   <artifactId>openpdf-fonts-extra</artifactId>
   <name>OpenPDF Fonts Extras</name>
 
-  <properties>
-    <java-module-name>com.github.librepdf.pdfFontsExtra</java-module-name>
-  </properties>
-
   <dependencies>
     <dependency>
       <groupId>com.github.librepdf</groupId>
